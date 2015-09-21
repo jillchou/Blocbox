@@ -1,1 +1,0 @@
-<h1>Assignment 27: Configuring Git and GitHub</h1>
