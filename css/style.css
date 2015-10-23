@@ -198,7 +198,7 @@ position: relative;
 /* Pricing */
 .pricing {
 background-color: #091c33;
-height: 450px;
+height: 570px;
 text-align: center;
 padding: 1em 0;
 
@@ -211,33 +211,136 @@ padding: 1em 0;
 	color:#ffffff;
 	text-align: center;
 	font-size: 16px;
-	margin-right: 250px;
-	margin-left: 250px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-bottom: 30px;
 }
 .pricing .container .one-third {
-	color:#ffffff;
+	color:#091c33;
 }
 
 .pricing .container .one-third ul {
 	margin-bottom: 30px;
 }
 
+.box {
+	padding:1px 3px 3px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+	min-height: 350px;
+	position: relative;
+	margin-top: 20px;
+}
+.box.middle {
+	min-height: 400px;
+	margin-top: 1px;
+}
+.box h3 {
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: #377a91;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+	left: 0;
+	right: 0;
+	top: 0;
+	text-align: center;
+	margin: 0 -8px 35px;
+	padding: 10px 0;
+}
+.box h4 {
+	font-size: 45px;
+	font-weight: normal;
+	margin: 30px 0 10px;
+	color: #091c33;
+}
+.box h4 span {
+	font-size: 28px;
+	vertical-align: top;
+}
+.box h4 span.month {
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	color: #377a91;
+	font-size: 20px;
+	vertical-align: middle;
+}
+.box ul li {
+	font-size: 18px;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
 
 /* Testimonials */
 .testimonials {
 	background-color: #f0f0f0;
+	height: 530px;
+	text-align: center;
+	padding: 1em 0;
 }
 .testimonials .container h2 {
 	color:#377a91;
-	text-align: center;
 }
+
 .testimonials .container p {
 	color:#091c33;
-	text-align: center;
-	font-size: 16px;
-	margin-right: 250px;
-	margin-left: 250px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-bottom: 30px;
 }
+
+.testimonials .container {
+	margin-bottom: 20px;
+}
+.testimonials blockquote {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 100px;
+	text-align: left;
+	font-style: italic;
+	background: #377a91;
+	position: relative;
+	padding: 25px;
+	width: auto;
+	margin: 0;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+}
+.testimonials blockquote:after {
+	top: 100%;
+	left:13%;
+	border: solid transparent;
+	content: " ";
+	height:0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-top-color: #377a91;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.testimonials img {
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	float: left;
+	display: inline-block;
+	margin: 20px 10px 0 0;
+}
+.testimonials p.name {
+	float: left;
+	display: inline-block;
+	font-size: 15px;
+	text-align: left;
+	margin: 30px 10px 0 0;
+
+}
+
+.testimonials a {
+	text-align: center;
+	margin-top: 150px;
+}
+
 
 /* Footer */
 
