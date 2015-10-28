@@ -14,10 +14,24 @@
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/font-awesome.css">
+   <link rel="stylesheet" href="css/dropit.css">
+
  
  </head>
 
  <body class="dashboard">
+ 	<!--RESPONSIVE NAV-->
+ 	<a class="hamburger" id="menu" href="#">&#9776;</a>
+
+
+ 	<!-- TOP NAV -->
+<nav id="top-nav" class="top-nav">
+   <div class="settings">
+     <img src="images/Pepper.png">
+     <p><a href="#">Jill Chou</i></a></p>
+   </div>
+  </nav>
+
 
    <!-- LEFT NAV -->
    <nav id="left-nav" class="left-nav">
@@ -43,13 +57,7 @@
 
  ...
 </div>
-<!-- TOP NAV -->
-<nav id="top-nav" class="top-nav">
-   <div class="settings">
-     <img src="images/Pepper.png">
-     <p><a href="#"><i class="fa fa-cog"> Jill Chou</i></a></p>
-   </div>
-  </nav>
+
 
 <Main role="main">
 	<!-- Benefits -->
@@ -57,6 +65,16 @@
 		<div class="container">
 			<div class="header">
 				<h1>All Items</h1>
+				<ul class="menu">
+					<li>
+						<a href="#" class="btn">+Add</a>
+						<ul>
+							<li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+							<li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+							<li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<div class="container">
@@ -121,6 +139,14 @@
 		  </div>
 		</section>
 	</main>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/dropit.js"></script>
+	<script type="text/javascript">
+		$(".menu").dropit();
+		$("#menu").click(function() {
+			$("#left-nav").toggleClass("open", 200);
+		});
+	</script>
 
 
 </body>
