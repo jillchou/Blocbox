@@ -355,17 +355,19 @@ footer p, footer nav ul {
 	font-weight: 100;
 	text-align: center;
 	margin: 10px auto 0;
-		 margin-top: 40px;
+		 margin-top: 45px;
 }
 footer nav ul li {
 	list-style-type: none;
 	 display: inline;
-	 padding-right: 10px;
+	 padding-right: 15px;
+	 float: right;
 
 }
 footer nav ul li a {
 	color: #ff9c02;
 	text-decoration: none;
+
 }
 footer .logo {
 	float: left;
@@ -375,6 +377,10 @@ footer .logo {
 footer p {
 	margin-top: 45px;
 	font-size: 13px;
+}
+.right-footer-block {
+	text-align: right;
+	margin-top: 30px;
 }
 
 /*Dashboard*/
